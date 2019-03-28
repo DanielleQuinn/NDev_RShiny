@@ -1,10 +1,15 @@
+# This code is slightly different from the live-coding script from the event :)
+
 # ---- Load Packages ----
+# Install the package to your library with:
+# install.packages("shiny")
+# Load the package from your library with:
 library(shiny)
 
 # ---- User Interface ----
 # What does the app look like?
 ui <- fluidPage(
-  fluidRow(column(6, textInput(inputId = "name", label = "What is your name?", value = "...")),
+  fluidRow(column(6, textInput(inputId = "name", label = "What is your name?", value = "I have no name")),
            column(6, checkboxGroupInput(inputId = "numbers", label = "Choose Your Numbers", choices = c(1:5), selected = 1))),
   fluidRow(column(6, uiOutput("name_response")),
            column(6, uiOutput("numbers_response"))),
