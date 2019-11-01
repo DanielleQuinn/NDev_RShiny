@@ -1,1 +1,3 @@
-# NDev_RShiny
+# NDev34: Interactive Web Apps with R Shiny
+
+This repository contains the slides and code from a talk/coding demonstration I presented for [NDev](https://www.meetup.com/NDevMeetup/) in March 2019. The audience consisted of software developers with limited knowledge of R or RShiny, and lasted approximately 90 minutes. The live-coding demonstration allowed participants to create their first (very simple) RShiny application, which prompted users to supply their name and select their favourite number from a drop-down menu. The value selected was plotted on a scatterplot, and a link to the Wikipedia page about the selected number was generated.
